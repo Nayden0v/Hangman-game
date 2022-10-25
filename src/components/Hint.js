@@ -3,7 +3,7 @@ import React from 'react'
 const Hint = ({selectedHint}) => {
   return (
     <div>
-      <p>Hint : {selectedHint}</p>
+      <p style={{color:"lightgreen"}}>Hint : <span>{selectedHint}</span></p>
     </div>
   )
 }
